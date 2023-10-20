@@ -54,7 +54,7 @@ h1 {
   text-align: center;
   border-radius: 10px;
   line-height: 27px;
-  box-shadow: var(--dark-Blue) 0 8px 15px 1px;
+  box-shadow: hsla(249, 10%, 26%, 0.263) 0 8px 2px;
 }
 
 .offer span {
@@ -82,23 +82,28 @@ form input {
 
 button {
   width: 100%;
-  padding: 22px;
+  padding: 19px 22px;
   background: var(--green);
   border: none;
   border-radius: 5px;
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
+  cursor: pointer;
   font-size: medium;
   vertical-align: middle;
+  box-shadow: rgba(24, 114, 24, 0.598) 0 5px;
 }
 
 form p {
   text-align: center;
+  color: hsla(249, 10%, 26%, 0.468);
+  font-weight: 500;
 }
 
 form p span {
   color: var(--red);
+  font-weight: 700;
 }
 
 .attribution {
